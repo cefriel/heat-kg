@@ -5,7 +5,7 @@ PREFIX dct:	<http://purl.org/dc/terms/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX sur: <https://w3id.org/survey-ontology#>
 
-SELECT *
+SELECT DISTINCT ?questionText ?questionOptionsText ?questionOptionsValues ?questionReversed
 WHERE {
 	?_construct_iri a heat:Construct ;
 		heat:hasQuestion ?constructQuestion .

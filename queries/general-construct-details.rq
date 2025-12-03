@@ -1,0 +1,15 @@
+# details of a general construct
+
+PREFIX heat: <https://w3id.org/heat#>
+PREFIX dct:	<http://purl.org/dc/terms/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT DISTINCT ?gconstructLabel ?gconstructDescription ?narrowerGConstruct ?narrowerGCLabel ?narrowerGCDescription
+WHERE {
+	?_gconstruct_iri a heat:GeneralConstruct ;
+		rdfs:label ?gconstructLabel ;
+		dct:description ?gconstructDescription .
+	OPTIONAL { ?_gconstruct_iri skos:broader ?narrowerGConstruct . 
+		?narrowerGConstruct rdfs:label ?narrowerGCLabel ; dct:description ?narrowerGCDescription . }
+}
