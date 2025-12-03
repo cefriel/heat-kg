@@ -1,4 +1,7 @@
-# details of a general construct
+#+ endpoint: https://knowledge.c-innovationhub.com/heat
+#+ summary: Get the details about a general construct
+#+ tags:
+#+ - GeneralConstructs
 
 PREFIX heat: <https://w3id.org/heat#>
 PREFIX dct:	<http://purl.org/dc/terms/> 

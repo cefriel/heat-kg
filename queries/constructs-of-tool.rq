@@ -1,4 +1,7 @@
-# constructs of a tool
+#+ endpoint: https://knowledge.c-innovationhub.com/heat
+#+ summary: Get all constructs included in a HEAT tool
+#+ tags:
+#+ - Tools
 
 PREFIX heat: <https://w3id.org/heat#>
 PREFIX dct:	<http://purl.org/dc/terms/> 

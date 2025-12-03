@@ -1,5 +1,7 @@
 #+ endpoint: https://knowledge.c-innovationhub.com/heat
-# all tools
+#+ summary: Get the list of all HEAT tools 
+#+ tags:
+#+ - Tools
 
 PREFIX heat: <https://w3id.org/heat#>
 PREFIX dct:	<http://purl.org/dc/terms/> 

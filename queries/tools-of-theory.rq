@@ -1,4 +1,7 @@
-# tools of a theory
+#+ endpoint: https://knowledge.c-innovationhub.com/heat
+#+ summary: Get all the HEAT tools implementing a specific reference theory
+#+ tags:
+#+ - ReferenceTheories
 
 PREFIX heat: <https://w3id.org/heat#>
 PREFIX dct:	<http://purl.org/dc/terms/> 

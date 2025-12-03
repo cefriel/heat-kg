@@ -1,4 +1,7 @@
-# tools of a context
+#+ endpoint: https://knowledge.c-innovationhub.com/heat
+#+ summary: Get the HEAT tools associated to a context
+#+ tags:
+#+ - Contexts
 
 PREFIX heat: <https://w3id.org/heat#>
 PREFIX dct:	<http://purl.org/dc/terms/> 
