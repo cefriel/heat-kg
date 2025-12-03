@@ -5,7 +5,7 @@ HEAT-KG is a Knowledge Graph of Human Evaluation and Assessment Tools. This repo
 
 ## Data and ontology
 
-Download the HEAT-KG from Zenodo at [TBA](TBA) using the `download.sh` file in the `data` folder. Or download it manually from Zenodo and put the TTL file in `data/heat-kg.ttl`. If you are familiar with RDF, you can simply use the downloaded file to find the information you are looking for. 
+Download the HEAT-KG from Zenodo at [https://doi.org/10.5281/zenodo.17805803](https://doi.org/10.5281/zenodo.17805803) using the `download.sh` file in the `data` folder. Or download it manually from Zenodo and put the TTL file in `data/heat-kg.ttl`. If you are familiar with RDF, you can simply use the downloaded file to find the information you are looking for. 
 
 The data included in the HEAT-KG are represented with respect to the HEAT ontology (URI: [https://w3id.org/heat#](https://w3id.org/heat#), repo: [https://github.com/cefriel/heat-ontology](https://github.com/cefriel/heat-ontology)).
 

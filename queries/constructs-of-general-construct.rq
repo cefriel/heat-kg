@@ -13,7 +13,7 @@ WHERE {
 	?construct a heat:Construct ;
 		rdfs:label ?constructLabel ;
 		dct:description ?constructDescription ;
-		heat:refersToGeneralConstructs ?_gconstruct_iri .
+		heat:refersToGeneralConstruct ?_gconstruct_iri .
 	?tool a heat:Tool ;
 		heat:hasConstruct ?construct ;
 		rdfs:label ?toolLabel .		
