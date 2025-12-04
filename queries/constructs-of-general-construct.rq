@@ -1,4 +1,5 @@
 #+ endpoint: https://knowledge.c-innovationhub.com/heat
+#+ endpoint-method: GET
 #+ summary: Get all constructs realizing a general construct
 #+ tags:
 #+ - GeneralConstructs
